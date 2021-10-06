@@ -1,0 +1,10 @@
+import numpy as np
+a = np.arange(1, 13)
+print(a)
+print(np.delete(a, 2))
+a.resize(4, 3)
+print(a)
+b = np.delete(a, 2, axis = 0)
+print(b)
+c = np.delete(a, 2, axis = 1)
+print(c)
